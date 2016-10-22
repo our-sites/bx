@@ -1,0 +1,100 @@
+html, body{
+    background-color: #e9f2f4;
+}
+#Login{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+#Login .login-body{
+    position: relative;
+    width: 854px;
+    height: 424px;
+    margin: 87px auto 36px;
+    background: #ffffff;
+
+}
+
+#Login .login-body .logo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 2;
+    width: 56px;
+    height: 56px;
+    margin: -28px  0 0 -28px;
+}
+
+#Login .login-body > .fl{
+    width: 320px;
+    height: 320px;
+    margin: 50px 0 0 50px;
+}
+
+#Login .login-body > .fr{
+    width: 338px;
+    height: 254px;
+    margin: 72px 50px 0 0;
+}
+
+#Login .login-body h2{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+#Login .login-body input[type="text"],
+#Login .login-body input[type="password"]{
+    width: 306px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+    border: 1px solid #ebebeb;
+    font-size: 12px;
+    color: #424242;
+    margin-top: 18px;
+}
+
+#Login .login-body input[type="text"]:focus,
+#Login .login-body input[type="password"]:focus{
+    border-color: #42bad0;
+}
+
+
+#Login .login-body input[type="checkbox"]{
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#Login .login-body label{
+    color: #9e9e9e;
+    cursor: pointer;
+}
+
+#Login .login-body .fr .clf{
+    margin-top: 18px;
+}
+
+#Login .login-body .fr .fr{
+    color: #dbdbdb;
+}
+
+
+#Login .login-body button[type="submit"]{
+    width: 330px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #42bad0;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 18px;
+    border: none;
+    cursor: pointer;
+}
+#Login .login-body button[type="submit"]:hover{
+    background-color: #4bd3eb;
+}
+
+#Login .copyright{
+    text-align: center;
+    color: #9e9e9e;
+}

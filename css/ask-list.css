@@ -1,0 +1,270 @@
+#askList {
+    width: 960px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+
+/* 左侧*/
+
+#askList .ask-list-left {
+    float: left;
+    width: 600px;
+}
+
+/*提问框*/
+#askList .ask-list-left .ask-box {
+    position: relative;
+    width: 598px;
+    height: 94px;
+    border: 1px solid #dbdbdb;
+}
+
+#askList .ask-box textarea {
+    width: 574px;
+    height: 44px;
+    padding: 12px 12px 0;
+    border: none;
+    resize: none;
+}
+
+#askList .ask-box .float-layer {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    z-index: 2;
+    display: inline-block;
+    color: #9e9e9e;
+    height: 32px;
+    line-height: 32px;
+}
+
+#askList .ask-box .float-layer a {
+    display: inline-block;
+    width: 87px;
+    height: 32px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42bad0;
+    margin-left: 3px;
+}
+
+#askList .ask-box .float-layer a:hover {
+    background-color: #4bd3eb;
+}
+
+/*列表*/
+
+#askList .ask-list-left .ask-list-item {
+    padding: 27px 16px 0 0;
+    height: 185px;
+    border-bottom: 1px solid #ebebeb;
+
+}
+
+#askList .ask-list-item h4 {
+    font-size: 14px;
+}
+
+#askList .ask-list-item .question-info {
+    color: #9e9e9e;
+    margin: 6px 0 20px;
+}
+
+#askList .ask-list-item .question-info a {
+    padding: 3px 5px;
+    background-color: #e9f2f4;
+    color: #9e9e9e;
+    margin-right: 12px;
+}
+
+#askList .ask-list-item .question-info a:hover {
+    color: #4bd3eb;
+}
+
+#askList .ask-list-item .result-author-avatar {
+    float: left;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #e9f2f4;
+}
+
+#askList .ask-list-item .result-box > .fr {
+    width: 524px;
+    margin-left: 6px;
+}
+
+#askList .ask-list-item .result-box .result-info {
+    color: #9e9e9e;
+    margin-bottom: 10px;
+}
+
+#askList .ask-list-item .result-box .result-info a {
+    color: #616161;
+}
+
+#askList .ask-list-item .result-box .result-info a:hover {
+    color: #4bd3eb;
+}
+
+#askList .ask-list-item .result-box .result-info-level {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/author-level.png") no-repeat 0 0;
+    vertical-align: bottom;
+    margin-left: 6px;
+}
+
+#askList .ask-list-item .result-box .result-info-authentication {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/author-authentication.png") no-repeat 0 0;
+    vertical-align: bottom;
+    margin-left: 6px;
+}
+
+#askList .ask-list-item .result-box .result-info-date {
+    float: right;
+}
+
+#askList .ask-list-item .result-box .result-content {
+    line-height: 1.6;
+}
+
+#askList .ask-list-item .result-box .result-ctrl label {
+    color: #9e9e9e;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#askList .ask-list-item .result-box .result-ctrl i.fa {
+    font-size: 12px;
+}
+
+#askList .ask-list-item .result-box .result-ctrl label:hover i.fa,
+#askList .ask-list-item .result-box .result-ctrl label.active i.fa {
+    color: #42bad0;
+}
+
+#askList .ask-list-item .result-box .result-ctrl label.active i.fa.fa-star-o:before {
+    content: "\f005";
+}
+
+#askList .ask-list-item .result-box .result-ctrl label.active i.fa.fa-heart-o:before {
+    content: "\f004";
+}
+/*右侧*/
+#askList .ask-list-right{
+    float: right;
+    width: 300px;
+}
+
+#askList .ask-list-right .rank-title{
+    position: relative;
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid #ebebeb;
+}
+#askList .ask-list-right .rank-title-tab{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 26px;
+
+}
+#askList .ask-list-right .rank-title-tab a{
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    margin-right: 5px;
+}
+
+#askList .ask-list-right .rank-title-tab a:hover,
+#askList .ask-list-right .rank-title-tab a.active{
+    border-color: #42bad0;
+}
+
+#askList .ask-list-right .rank-item{
+    position: relative;
+    padding: 12px 8px;
+    height: 32px;
+    line-height: 32px;
+    color: #9e9e9e;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#askList .ask-list-right .rank-item span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#askList .ask-list-right .rank-item:hover{
+    background-color: #fafafa;
+}
+
+
+#askList .ask-list-right .rank-item:hover .rank-item-link{
+    display: block;
+}
+
+#askList .ask-list-right .rank-item-link{
+    display: none;
+    position: absolute;
+    top: 16px;
+    right: 8px;
+    z-index: 2;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42bad0;
+}
+
+#askList .ask-list-right .rank-item-avatar{
+    width: 31px;
+    height: 31px;
+    vertical-align: bottom;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #e9f2f4;
+    margin-right: 3px;
+}
+
+#askList .ask-list-right .rank-item-name{
+    margin-right: 12px;
+    width: 50px;
+    height: 32px;
+    overflow: hidden;
+}
+#askList .ask-list-right .rank-item-company{
+    margin-right: 6px;
+    width: 26px;
+    height: 32px;
+    overflow: hidden;
+}
+
+#askList .ask-list-right .rank-item-level,
+#askList .ask-list-right .rank-item-authentication{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+}
+
+#askList .ask-list-right .rank-item-level{
+    margin-right: 2px;
+    background: url("../img/author-level.png") no-repeat 0 0;
+}
+
+#askList .ask-list-right .rank-item-authentication{
+    background: url("../img/author-authentication.png") no-repeat 0 0;
+}
+
+#askList .ask-list-right .rank-item-score{
+    float: right;
+}

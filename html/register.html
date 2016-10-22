@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+<div id="Register">
+    <div class="register-body">
+        <div class="logo">
+            <img src="../img/logo.png" alt="logo" width="56" height="56">
+        </div>
+        <form action="">
+            <h2>注册保险管家账号</h2>
+
+            <p class="role">
+                <label class="buyer active"><input type="radio" name="role" checked>我要买保险</label>
+                <label class="agency"><input type="radio" name="role">我是代理人</label>
+            </p>
+
+            <input type="text" placeholder="手机" class="error">
+            <div class="error-tip">手机格式不正确</div>
+
+
+            <input type="text" placeholder="邮箱">
+
+            <input type="password" placeholder="密码">
+
+            <input type="password" placeholder="确认密码">
+
+            <select name="" id="">
+                <option value="0">所在地区</option>
+            </select>
+
+            <p class="agreement">
+                点击“立即注册”，即表示您同意 <a href="">《保险管家使用协议》</a>
+            </p>
+
+            <button type="submit">立即注册</button>
+
+            <p class="login">
+                如果您已拥有保险管家帐号，则可在此 <a href="login.html" class="color">登录</a>
+            </p>
+        </form>
+    </div>
+    <div class="copyright">　© 2016 baoxianguanjia.com 豫ICP备13006688号</div>
+</div>
+
+
+
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/register.js"></script>
+
+</body>
+</html>
