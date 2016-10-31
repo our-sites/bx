@@ -78,6 +78,11 @@
     margin-bottom: 28px;
 }
 
+#informationDetail .information-article-content img{
+    width: 100%;
+}
+
+
 #informationDetail .information-article-footer {
     padding-bottom: 14px;
     border-bottom: 1px solid #ebebeb;
@@ -121,8 +126,7 @@
     width: 270px;
     height: 18px;
     margin-top: 18px;
-    list-style: disc;
-    list-style-position: inside;
+    list-style: disc inside none;
     color: #42bad0;
     overflow: hidden;
     white-space: nowrap;
@@ -134,7 +138,7 @@
 }
 
 #informationDetail .information-relative li a {
-    margin-left: -10px;
+    /*margin-left: -10px;*/
 }
 
 
@@ -166,8 +170,7 @@
     width: 100%;
     height: 18px;
     margin-top: 18px;
-    list-style: disc;
-    list-style-position: inside;
+    list-style: disc inside none;
     color: #42bad0;
     overflow: hidden;
     white-space: nowrap;
@@ -175,7 +178,7 @@
 }
 
 #informationDetail .hot-information li a {
-    margin-left: -10px;
+    /*margin-left: -10px;*/
 }
 
 
